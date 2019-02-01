@@ -6,137 +6,472 @@ background-image: url('') !important;
 background-repeat:no-repeat !important; 
 background-position:center !important; 
 background-size:cover;
-background-color:#000000;
+background-color:#382113;
 }
 
-::-webkit-scrollbar {width: 3px; height: 3px;}
+::-webkit-scrollbar {width: 4px; height: 4px;}
 ::-webkit-scrollbar-track {background: none;}
 ::-webkit-scrollbar-thumb {background: #A08275;}
 
-body:hover #tabbox1 {
-top:60%;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-body:hover #tabbox2 {
-top:60%;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
--webkit-animation-delay:2s;
-}
-
-body:hover #tabbox3 {
-top:60%;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-body:hover #tabbox4 {
-top:60%;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#bigpic {
+#box {
 position:absolute;
+background-color:#422B1D;
 width:60%;
-height:100%;
-left:0%;
-top:0%;
-background-image: url('https://i.imgur.com/UIJiN41.png') !important; 
-background-repeat:no-repeat !important; 
-background-position:center !important; 
-background-size:contain;
+height:70%;
+top:15%;
+left:20%;
 }
 
-#picbox1 {
+#pic1 {
 position:absolute;
-border:1px solid #6D3F21;
-width:5%;
-height:10%;
-top:25%;
-left:66%;
-background-image: url('https://i.imgur.com/tzC1zcq.png') !important; 
+background-color:#4C3527;
+width:19%;
+height:66%;
+top:17%;
+left:21%;
+background-image: url('https://i.imgur.com/ATAiBuo.jpg') !important; 
 background-repeat:no-repeat !important; 
-background-position:center !important; 
-background-size:100% 100%;
+background-position:left !important; 
+background-size:cover;
 }
 
-#pictab1 {
+#pic2 {
 position:absolute;
-opacity:0;
-border:1px solid #6D3F21;
-background-color:#3C1E11;
-width:4%;
-height:8%;
-top:26%;
-left:66.5%;
+background-color:#60493B;
+width:20%;
+height:66%;
+top:17%;
+left:40%;
+background-image: url('https://i.imgur.com/Nl6Nfji.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+}
+
+#pic3 {
+position:absolute;
+background-color:#563F31;
+width:19%;
+height:66%;
+top:17%;
+left:60%;
+background-image: url('https://i.imgur.com/x6ZnAo1.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:left !important; 
+background-size:cover;
+}
+
+#box1 {
+position:absolute;
+background-color:rgba(76, 53, 39, 0.8);
+width:19%;
+height:66%;
+top:17%;
+left:21%;
 -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
 transition: all 0.8s ease-out;
 }
 
-#picbox2 {
-position:absolute;
-border:1px solid #6D3F21;
-width:5%;
-height:10%;
-top:25%;
-left:72%;
-background-image: url('https://i.imgur.com/cLUBRlL.png') !important; 
-background-repeat:no-repeat !important; 
-background-position:center !important; 
-background-size:100% 100%;
-}
-
-#pictab2 {
+#name {
 position:absolute;
 opacity:0;
-border:1px solid #6D3F21;
-background-color:#3C1E11;
-width:4%;
-height:8%;
-top:26%;
-left:72.5%;
+padding:1%;
+background-color:#875321;
+width:90%;
+height:5%;
+left:4%;
+top:3%;
+font-family: 'KoHo', sans-serif;
+color:#FFFFFF;
+text-align:center;
+font-size:3vh;
+line-height:1;
 -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
 transition: all 0.8s ease-out;
 }
 
-#picbox3 {
-position:absolute;
-border:1px solid #6D3F21;
-width:5%;
-height:10%;
-top:25%;
-left:78%;
-background-image: url('https://i.imgur.com/C4jJqZb.png') !important; 
-background-repeat:no-repeat !important; 
-background-position:center !important; 
-background-size:100% 100%;
-}
-
-#pictab3 {
+#age {
 position:absolute;
 opacity:0;
-border:1px solid #6D3F21;
-background-color:#3C1E11;
-width:4%;
-height:8%;
-top:26%;
-left:78.5%;
+padding:1%;
+background-color:#FFFFFF;
+width:90%;
+height:5%;
+left:4%;
+top:12%;
+font-family: 'KoHo', sans-serif;
+color:#875321;
+text-align:center;
+font-size:3vh;
+line-height:1;
 -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
 transition: all 0.8s ease-out;
 }
 
-#pictab1:hover,#pictab2:hover,#pictab3:hover {
+#gender {
+position:absolute;
+opacity:0;
+padding:1%;
+background-color:#875321;
+width:90%;
+height:5%;
+left:4%;
+top:21%;
+font-family: 'KoHo', sans-serif;
+color:#FFFFFF;
+text-align:center;
+font-size:3vh;
+line-height:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#race {
+position:absolute;
+opacity:0;
+padding:1%;
+background-color:#FFFFFF;
+width:90%;
+height:5%;
+left:4%;
+top:30%;
+font-family: 'KoHo', sans-serif;
+color:#875321;
+text-align:center;
+font-size:3vh;
+line-height:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#height {
+position:absolute;
+opacity:0;
+padding:1%;
+background-color:#875321;
+width:90%;
+height:5%;
+left:4%;
+top:39%;
+font-family: 'KoHo', sans-serif;
+color:#FFFFFF;
+text-align:center;
+font-size:3vh;
+line-height:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#weight {
+position:absolute;
+opacity:0;
+padding:1%;
+background-color:#FFFFFF;
+width:90%;
+height:5%;
+left:4%;
+top:48%;
+font-family: 'KoHo', sans-serif;
+color:#875321;
+text-align:center;
+font-size:3vh;
+line-height:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#deetstitle {
+position:absolute;
+opacity:0;
+padding:1%;
+background-color:#875321;
+width:90%;
+height:3%;
+left:4%;
+top:57%;
+text-align:center;
+color:#FFFFFF;
+font-size:1.6vh;
+text-transform:uppercase;
+font-family: 'Inconsolata', monospace;
+letter-spacing:3px;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#deets {
+position:absolute;
+opacity:0;
+padding:1%;
+overflow:auto;
+background-color:#FFFFFF;
+width:90%;
+height:25%;
+left:4%;
+top:61%;
+color:#000000;
+font-size:1.5vh;
+font-family: 'KoHo', sans-serif;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tiny {
+position:absolute;
+background-color:#382113;
+width:10%;
+height:70%;
+top:14%;
+left:2%;
+}
+
+#box1:hover #name {
 opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box1:hover #gender {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box1:hover #age {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box1:hover #race {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box1:hover #height {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box1:hover #weight {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box1:hover #deetstitle {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box1:hover #deets {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box2 {
+position:absolute;
+background-color:rgba(96, 73, 59, 0.8);
+width:20%;
+height:66%;
+top:17%;
+left:40%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#racialstitle {
+position:absolute;
+opacity:0;
+padding:1%;
+background-color:#875321;
+width:90%;
+height:3%;
+left:4%;
+top:3%;
+text-align:center;
+color:#FFFFFF;
+font-size:1.6vh;
+text-transform:uppercase;
+font-family: 'Inconsolata', monospace;
+letter-spacing:3px;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#racials {
+position:absolute;
+opacity:0;
+padding:1%;
+overflow:auto;
+background-color:#FFFFFF;
+width:90%;
+height:35%;
+left:4%;
+top:7%;
+color:#000000;
+font-size:1.5vh;
+font-family: 'KoHo', sans-serif;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#magicstitle {
+position:absolute;
+opacity:0;
+padding:1%;
+background-color:#875321;
+width:90%;
+height:3%;
+left:4%;
+top:47%;
+text-align:center;
+color:#FFFFFF;
+font-size:1.6vh;
+text-transform:uppercase;
+font-family: 'Inconsolata', monospace;
+letter-spacing:3px;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#magics {
+position:absolute;
+opacity:0;
+padding:1%;
+overflow:auto;
+background-color:#FFFFFF;
+width:90%;
+height:35%;
+left:4%;
+top:51%;
+color:#000000;
+font-size:1.5vh;
+font-family: 'KoHo', sans-serif;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box2:hover #racialstitle {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box2:hover #racials {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box2:hover #magicstitle {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box2:hover #magics {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box3 {
+position:absolute;
+background-color:rgba(86, 63, 49, 0.8);
+width:19%;
+height:66%;
+top:17%;
+left:60%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#historytitle {
+position:absolute;
+opacity:0;
+padding:1%;
+background-color:#875321;
+width:90%;
+height:3%;
+left:4%;
+top:3%;
+text-align:center;
+color:#FFFFFF;
+font-size:1.6vh;
+text-transform:uppercase;
+font-family: 'Inconsolata', monospace;
+letter-spacing:3px;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#history {
+position:absolute;
+opacity:0;
+padding:1%;
+overflow:auto;
+background-color:#FFFFFF;
+width:90%;
+height:79%;
+left:4%;
+top:7%;
+color:#000000;
+font-size:1.5vh;
+font-family: 'KoHo', sans-serif;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box3:hover #historytitle {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box3:hover #history {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box1:hover,#box2:hover,#box3:hover {
+background-color:rgba(76, 53, 39, 0);
 -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
 transition: all 0.8s ease-out;
@@ -144,11 +479,16 @@ transition: all 0.8s ease-out;
 
 #tabbox1 {
 position:absolute;
-border:1px solid #6D3F21;
-width:2%;
-height:16%;
-top:42%;
-left:66%;
+width:12%;
+height:7%;
+top:90%;
+left:44%;
+background-image: url('https://i.imgur.com/g9VYI3f.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:100% 100%;
+-webkit-filter: invert(0%);
+filter: invert(0%);
 -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
 transition: all 0.8s ease-out;
@@ -156,125 +496,48 @@ transition: all 0.8s ease-out;
 
 #tabbox2 {
 position:absolute;
-border:1px solid #6D3F21;
-width:2%;
-height:16%;
-top:42%;
-left:71%;
+width:11%;
+height:7%;
+top:90%;
+left:44%;
+background-image: url('https://i.imgur.com/g9VYI3f.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:100% 100%;
+-webkit-filter: invert(0%);
+filter: invert(0%);
 -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
 transition: all 0.8s ease-out;
 }
 
-#tabbox3 {
-position:absolute;
-border:1px solid #6D3F21;
-width:2%;
-height:16%;
-top:42%;
-left:76%;
+#tabbox1:hover,#tabbox2:hover {
+-webkit-filter: invert(100%);
+filter: invert(100%);
 -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
 transition: all 0.8s ease-out;
-}
-
-#tabbox4 {
-position:absolute;
-border:1px solid #6D3F21;
-width:2%;
-height:16%;
-top:42%;
-left:81%;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#contentbox {
-position:absolute;
-border:1px solid #6D3F21;
-background-color:#000000;
-width:17%;
-height:26%;
-top:37%;
-left:66%;
-}
-
-#content {
-position:absolute;
-border:1px solid #6D3F21;
-background-color:#321407;
-overflow:auto;
-padding:1%;
-width:13%;
-height:17.7%;
-top:39%;
-left:67%;
-color:#FFFFFF;
-font-size:1.5vh;
-font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .tabs {
 display:inline-block;
 width:100%;
 height:100%;
-background-color:#000000;
-text-transform:uppercase;
-text-align:right;
-writing-mode: vertical-rl;
-text-orientation: sideways;
-color:#7C6651;
-font-size:2vh;
-line-height:2.3;
-font-family: 'Staatliches', cursive;
 -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
 transition: all 0.8s ease-out;
 }
 
-.tabs:hover {
-color:#FFFFFF;
-background-color:#3C1E11;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-.tabs1 {
-display:inline-block;
-width:100%;
-height:100%;
-text-transform:uppercase;
-text-align:center;
-color:#FFFFFF;
-font-size:2vh;
-line-height:3.8;
-font-family: 'Staatliches', cursive;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#tab1,#tab2,#tab3,#tab4,#tab5,#tab6,#tab7 {
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6 {
 display: none;
 }
 
-h1 {
-color:#C28454;
-font-family: 'Baloo Thambi', cursive;
-text-transform:uppercase;
-border-bottom:1px dashed #6B412D;
-text-align:center;
-font-size:2vh;
-}
-
 i {
-color:#C9CED6;
+color:#666666;
 }
 
 a {
-color:#E6C188;
+color:#A18770;
 text-decoration:none;
 -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
@@ -282,82 +545,62 @@ transition: all 0.8s ease-out;
 }
 
 a:hover {
-color:#C9CED6;
+color:#666666;
 -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
 transition: all 0.8s ease-out;
 }
 
 b {
-color:#C28454;
-font-family: 'Baloo Thambi', cursive;
+color:#382113;
+font-family: 'Major Mono Display', monospace;
 }
 </style>
 
 <style type="text/css">* {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), auto !important;}</style>
-<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Open+Sans+Condensed:300|Staatliches" rel="stylesheet">
-<script>function changeNavigation(id) {document.getElementById('content').innerHTML=document.getElementById(id).innerHTML}</script>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata|KoHo|Major+Mono+Display" rel="stylesheet">
+<script>function changeNavigation(id) {document.getElementById('box1').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation1(id) {document.getElementById('box2').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation2(id) {document.getElementById('box3').innerHTML=document.getElementById(id).innerHTML}</script>
 
-<div id="bigpic"></div>
-<div id="picbox1"></div>
-<div id="pictab1">
-<span class="tabs1" onClick="changeNavigation ('tab5')">Spicy</span>
+<div id="box"></div>
+<div id="pic1"></div>
+<div id="box1">
+<div id="tabbox1"><span class="tabs" onClick="changeNavigation ('tab1')"></span></div>
+<div id="name"><div id="tiny"></div>
+<u><b>Name:</b> Peppercorn</u>
 </div>
-<div id="picbox2"></div>
-<div id="pictab2">
-<span class="tabs1" onClick="changeNavigation ('tab6')">Little</span>
+<div id="age"><div id="tiny"></div>
+<u><b>Age:</b> Adult, Grown</u>
 </div>
-<div id="picbox3"></div>
-<div id="pictab3">
-<span class="tabs1" onClick="changeNavigation ('tab7')">Pepper</span>
+<div id="gender"><div id="tiny"></div>
+<u><b>Gender:</b> Female</u>
 </div>
-<div id="tabbox1"><span class="tabs" onClick="changeNavigation ('tab1')">Details ❥ <FONT COLOR="#000000">.</FONT></span></div>
-<div id="tabbox2"><span class="tabs" onClick="changeNavigation ('tab2')">History ❥ <FONT COLOR="#000000">.</FONT></span></div>
-<div id="tabbox3"><span class="tabs" onClick="changeNavigation ('tab3')">Racials ❥ <FONT COLOR="#000000">.</FONT></span></div>
-<div id="tabbox4"><span class="tabs" onClick="changeNavigation ('tab4')">Magic ❥ <FONT COLOR="#000000">.</FONT></span></div>
-<div id="contentbox"></div>
-<div id="content">
-<h1>Basic Stats</h1>
-<b>Name:</b> Pepper<br>
-<b>Age:</b> Adult<br>
-<b>Gender:</b> Female<br>
-<b>Sexuality:</b> Heterosexual<br>
-<b>Species:</b> Faerie<br>
-<b>Race:</b> Pixie<br>
-<b>Class:</b> Artisan<br>
-<b>Origin:</b> Murias (Northern Kingdom)<br>
-<b>Occupation:</b> <a target="_blank" href="https://thefaerierealms.wixsite.com/rowan-troop">Rowan Troop</a> Member<br>
-<b>Height:</b> 3'2"<br>
-<b>Weight:</b> 35 lbs.<br><br>
-<h1>Appearance</h1>
+<div id="race"><div id="tiny"></div>
+<u><b>Race:</b> Pixie/Faerie</u>
+</div>
+<div id="height"><div id="tiny"></div>
+<u><b>Height:</b> 3ft 2in .</u>
+</div>
+<div id="weight"><div id="tiny"></div>
+<u><b>Weight:</b> 35 lbs .</u>
+</div>
+<div id="deetstitle">
+Detailed Information
+</div>
+<div id="deets">
+<b>Appearance</b><br>
 <br><br>
-<h1>Personality</h1>
+<b>Personality</b><br>
 </div>
-
-<div id="tab1">
-<h1>Basic Stats</h1>
-<b>Name:</b> Pepper<br>
-<b>Age:</b> Adult<br>
-<b>Gender:</b> Female<br>
-<b>Sexuality:</b> Heterosexual<br>
-<b>Species:</b> Faerie<br>
-<b>Race:</b> Pixie<br>
-<b>Class:</b> Artisan<br>
-<b>Origin:</b> Murias (Northern Kingdom)<br>
-<b>Occupation:</b> <a target="_blank" href="https://thefaerierealms.wixsite.com/rowan-troop">Rowan Troop</a> Member<br>
-<b>Height:</b> 3'2"<br>
-<b>Weight:</b> 35 lbs.<br><br>
-<h1>Appearance</h1>
-<br><br>
-<h1>Personality</h1>
 </div>
-
-<div id="tab2">
-<h1>Pepper's Story Thus Far</h1>
+<div id="pic2"></div>
+<div id="box2">
+<div id="tabbox2"><span class="tabs" onClick="changeNavigation1 ('tab2')"></span></div>
+<div id="racialstitle">
+Pixie Racials
 </div>
-
-<div id="tab3">
-<h1>Pixie Racials</h1>
+<div id="racials">
 <b>Mana Sensitivity</b><br>
 The Fae-kind are very sensitive to auras and mana, allowing them to feel or see when another being is drawing from their mana pool or activating their mana, even if something is blocking their vision (assuming the blockage is Mage rank and under), a faint outline of an aura can be seen--or sensed--so long as the fellow magic user is within a twenty foot radius of the Fae (and they are actively being focused on). They cannot tell how much mana is being used or the user has left over, they are merely sensitive to when it is currently in use within the radius.
 <br><br>
@@ -373,25 +616,112 @@ Pixies are the only Faeries that have physical wings that grow from their backs.
 <b>Burning Calories</b><br>
 The Fae-kind eat thousands upon thousands of calories on purpose and burn them off very quickly. Physical sugary foods is said to help their mental and magic stability, often allowing them slightly faster mana regeneration than what is average if consumed when their mana-pool is either completely drained or close to it.
 </div>
-
-<div id="tab4">
-<h1>Enchantment: High Duomancer</h1>
+<div id="magicstitle">
+High Duomancer
+</div>
+<div id="magics">
+<b>Enchantment</b><br>
 <i>"The art of magical augmentation. Enchanters are able to infuse objects with their magic, granting the object a either a "Permanent" effect or boon, or a temporary ability which dissipates with time. Permanent enchantments must be recharged with the Enchanter's mana to keep these effects/boons active. As an enchanter increases in power, they not only gain acess to stronger enchantments, but are able to increase their durability and longevity.  Only non-biological/sentient objects may be enchanted."</i>
 <br><br>
-<h1>Ritualism: High Duomancer</h1>
+<b>Ritualism</b><br>
 <i>"Magic which recreates several forms of magic by imbuing Words of Power with Mana in the form of inscribed runic symbols. A mage of this tree may harness any tree of magic, but only in its lesser forms. A jack of all trades, ace of none tree, runes may be created for singular use (such as powerful explosions or traps), or cast upon an object to provide a spell of multiple uses (although the rune must be re-carved from time to time). Although this tree may start off as inherently weak, it's sheer utility and flexible spell roster make it an excellent choice for a well rounded mage."</i>
+</div>
+</div>
+<div id="pic3"></div>
+<div id="box3">
+<div id="tabbox1"><span class="tabs" onClick="changeNavigation2 ('tab3')"></span></div>
+<div id="historytitle">
+Pepper's Story Thus Far
+</div>
+<div id="history">
+</div>
+</div>
+
+<div id="tab1">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/sre0AHZ.png"/>
+<div id="tabbox1"><span class="tabs" onClick="changeNavigation ('tab4')"></span></div>
+</div>
+
+<div id="tab2">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/2t8yGJE.jpg"/>
+<div id="tabbox2"><span class="tabs" onClick="changeNavigation1 ('tab5')"></span></div>
+</div>
+
+<div id="tab3">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/pBCmzLb.png"/>
+<div id="tabbox1"><span class="tabs" onClick="changeNavigation2 ('tab6')"></span></div>
+</div>
+
+<div id="tab4">
+<div id="tabbox1"><span class="tabs" onClick="changeNavigation ('tab1')"></span></div>
+<div id="name"><div id="tiny"></div>
+<u><b>Name:</b> Peppercorn</u>
+</div>
+<div id="age"><div id="tiny"></div>
+<u><b>Age:</b> Adult, Grown</u>
+</div>
+<div id="gender"><div id="tiny"></div>
+<u><b>Gender:</b> Female</u>
+</div>
+<div id="race"><div id="tiny"></div>
+<u><b>Race:</b> Pixie/Faerie</u>
+</div>
+<div id="height"><div id="tiny"></div>
+<u><b>Height:</b> 3ft 2in .</u>
+</div>
+<div id="weight"><div id="tiny"></div>
+<u><b>Weight:</b> 35 lbs .</u>
+</div>
+<div id="deetstitle">
+Detailed Information
+</div>
+<div id="deets">
+<b>Appearance</b><br>
+<br><br>
+<b>Personality</b><br>
+</div>
 </div>
 
 <div id="tab5">
-<p align="center"><img style="height:82%" src="https://i.imgur.com/yOrLZlw.png"/></p>
+<div id="tabbox2"><span class="tabs" onClick="changeNavigation1 ('tab2')"></span></div>
+<div id="racialstitle">
+Pixie Racials
+</div>
+<div id="racials">
+<b>Mana Sensitivity</b><br>
+The Fae-kind are very sensitive to auras and mana, allowing them to feel or see when another being is drawing from their mana pool or activating their mana, even if something is blocking their vision (assuming the blockage is Mage rank and under), a faint outline of an aura can be seen--or sensed--so long as the fellow magic user is within a twenty foot radius of the Fae (and they are actively being focused on). They cannot tell how much mana is being used or the user has left over, they are merely sensitive to when it is currently in use within the radius.
+<br><br>
+<b>Enhanced Physical Speed</b><br>
+Considered to be the fastest of all their Fae-Folk peers, Pixies can push themselves to the limit! Their bodies can move up to triple the capacity of the average human at a moment's notice, making up for what they lack in size in their ability to travel larger distances in mere moments.
+<br><br>
+​<b>Camouflage</b><br>
+Even Pixies that don't have floral-like appendages, or don't dress themselves in pieces of nature, have the uncanny ability to blend in with their surroundings. It isn't that the tiny creatures can change their skin color to match the terrain, their ability is inexplicable! When they don't wish to be seen--without some kind of advanced sensory magic--they won't be, and they don't even have to alter their appearance whatsoever to "disappear."
+<br><br>
+<b>Fast Flight</b><br>
+Pixies are the only Faeries that have physical wings that grow from their backs. In most cases they are like that of an insect's, although it is possible for them to take on more of a bird-like appearance. Flight comes as easily to them as it does the insects and creatures of the sky in their native Kingdoms.
+<br><br>
+<b>Burning Calories</b><br>
+The Fae-kind eat thousands upon thousands of calories on purpose and burn them off very quickly. Physical sugary foods is said to help their mental and magic stability, often allowing them slightly faster mana regeneration than what is average if consumed when their mana-pool is either completely drained or close to it.
+</div>
+<div id="magicstitle">
+High Duomancer
+</div>
+<div id="magics">
+<b>Enchantment</b><br>
+<i>"The art of magical augmentation. Enchanters are able to infuse objects with their magic, granting the object a either a "Permanent" effect or boon, or a temporary ability which dissipates with time. Permanent enchantments must be recharged with the Enchanter's mana to keep these effects/boons active. As an enchanter increases in power, they not only gain acess to stronger enchantments, but are able to increase their durability and longevity.  Only non-biological/sentient objects may be enchanted."</i>
+<br><br>
+<b>Ritualism</b><br>
+<i>"Magic which recreates several forms of magic by imbuing Words of Power with Mana in the form of inscribed runic symbols. A mage of this tree may harness any tree of magic, but only in its lesser forms. A jack of all trades, ace of none tree, runes may be created for singular use (such as powerful explosions or traps), or cast upon an object to provide a spell of multiple uses (although the rune must be re-carved from time to time). Although this tree may start off as inherently weak, it's sheer utility and flexible spell roster make it an excellent choice for a well rounded mage."</i>
+</div>
 </div>
 
 <div id="tab6">
-<p align="center"><img style="height:82%" src="https://i.imgur.com/RFdangE.png"/></p>
+<div id="tabbox1"><span class="tabs" onClick="changeNavigation2 ('tab3')"></span></div>
+<div id="historytitle">
+Pepper's Story Thus Far
 </div>
-
-<div id="tab7">
-<p align="center"><img style="height:82%" src="https://i.imgur.com/nvbDRRJ.jpg"/></p>
+<div id="history">
+</div>
 </div>
 
 <embed style="height: 0%; width: 0%;"src="Pepper.mp3" autostart="true" loop="true">
