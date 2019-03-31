@@ -1,4 +1,4 @@
-<script>resizeTo(screen.availWidth, screen.availHeight);</script> 
+<script>resizeTo(screen.availWidth, screen.availHeight);</script>
 
 <style>
 body{
@@ -6,735 +6,743 @@ background-image: url('') !important;
 background-repeat:no-repeat !important; 
 background-position:center !important; 
 background-size:cover;
-background-color:#382113;
+background-color:#422B1D;
 }
 
 ::-webkit-scrollbar {width: 4px; height: 4px;}
 ::-webkit-scrollbar-track {background: none;}
-::-webkit-scrollbar-thumb {background: #A08275;}
+::-webkit-scrollbar-thumb {background: #1A0300;}
 
-#box {
+#titlebox {
 position:absolute;
-background-color:#422B1D;
-width:60%;
-height:70%;
-top:15%;
-left:20%;
+background-color:#382113;
+width:43%;
+height:6%;
+top:4%;
+left:28.5%;
+text-align:center;
+font-family: 'Cinzel', serif;
+font-size:4vh;
+color:#FFFFFF;
+line-height:1.5;
+letter-spacing:3px;
 }
 
-#pic1 {
+#pepper {
 position:absolute;
-background-color:#4C3527;
-width:19%;
-height:66%;
-top:17%;
-left:21%;
-background-image: url('https://i.imgur.com/ATAiBuo.jpg') !important; 
-background-repeat:no-repeat !important; 
-background-position:left !important; 
-background-size:cover;
+background-color:#382113;
+padding:1%;
+width:6%;
+height:12%;
+top:12%;
+left:28.5%;
 }
 
-#pic2 {
+#nametitle {
 position:absolute;
-background-color:#60493B;
-width:20%;
-height:66%;
-top:17%;
-left:40%;
-background-image: url('https://i.imgur.com/Nl6Nfji.jpg') !important; 
-background-repeat:no-repeat !important; 
-background-position:center !important; 
-background-size:cover;
-}
-
-#pic3 {
-position:absolute;
-background-color:#563F31;
-width:19%;
-height:66%;
-top:17%;
-left:60%;
-background-image: url('https://i.imgur.com/x6ZnAo1.png') !important; 
-background-repeat:no-repeat !important; 
-background-position:left !important; 
-background-size:cover;
-}
-
-#box1 {
-position:absolute;
-background-color:rgba(76, 53, 39, 0.8);
-width:19%;
-height:66%;
-top:17%;
-left:21%;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
+background-color:#382113;
+width:4%;
+height:2.5%;
+top:12%;
+left:37.5%;
+text-align:center;
+font-size:2vh;
+font-family: 'Oswald', sans-serif;
+text-transform:uppercase;
+color:#60493B;
+line-height:1.25;
 }
 
 #name {
 position:absolute;
-opacity:0;
-padding:1%;
-background-color:#875321;
-width:90%;
-height:5%;
-left:4%;
-top:3%;
-font-family: 'KoHo', sans-serif;
-color:#FFFFFF;
+width:4%;
+height:2.5%;
+top:12%;
+left:41.5%;
 text-align:center;
-font-size:3vh;
-line-height:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
+font-family: 'Raleway', sans-serif;
+color:#000000;
+font-size:1.5vh;
+line-height:1.7;
+letter-spacing:2px;
 }
 
-#age {
+#gendertitle {
 position:absolute;
-opacity:0;
-padding:1%;
-background-color:#FFFFFF;
-width:90%;
-height:5%;
-left:4%;
-top:12%;
-font-family: 'KoHo', sans-serif;
-color:#875321;
+background-color:#382113;
+width:4%;
+height:2.5%;
+top:16.5%;
+left:37.5%;
 text-align:center;
-font-size:3vh;
-line-height:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
+font-size:2vh;
+font-family: 'Oswald', sans-serif;
+text-transform:uppercase;
+color:#60493B;
+line-height:1.25;
 }
 
 #gender {
 position:absolute;
-opacity:0;
-padding:1%;
-background-color:#875321;
-width:90%;
-height:5%;
-left:4%;
-top:21%;
-font-family: 'KoHo', sans-serif;
-color:#FFFFFF;
+width:4%;
+height:2.5%;
+top:16.5%;
+left:41.5%;
 text-align:center;
-font-size:3vh;
-line-height:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
+font-family: 'Raleway', sans-serif;
+color:#000000;
+font-size:1.5vh;
+line-height:1.7;
+letter-spacing:2px;
+}
+
+#racetitle {
+position:absolute;
+background-color:#382113;
+width:4%;
+height:2.5%;
+top:21%;
+left:37.5%;
+text-align:center;
+font-size:2vh;
+font-family: 'Oswald', sans-serif;
+text-transform:uppercase;
+color:#60493B;
+line-height:1.25;
 }
 
 #race {
 position:absolute;
-opacity:0;
-padding:1%;
-background-color:#FFFFFF;
-width:90%;
-height:5%;
-left:4%;
-top:30%;
-font-family: 'KoHo', sans-serif;
-color:#875321;
+width:4%;
+height:2.5%;
+top:21%;
+left:41.5%;
 text-align:center;
-font-size:3vh;
-line-height:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#height {
-position:absolute;
-opacity:0;
-padding:1%;
-background-color:#875321;
-width:90%;
-height:5%;
-left:4%;
-top:39%;
-font-family: 'KoHo', sans-serif;
-color:#FFFFFF;
-text-align:center;
-font-size:3vh;
-line-height:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#weight {
-position:absolute;
-opacity:0;
-padding:1%;
-background-color:#FFFFFF;
-width:90%;
-height:5%;
-left:4%;
-top:48%;
-font-family: 'KoHo', sans-serif;
-color:#875321;
-text-align:center;
-font-size:3vh;
-line-height:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#deetstitle {
-position:absolute;
-opacity:0;
-padding:1%;
-background-color:#875321;
-width:90%;
-height:3%;
-left:4%;
-top:57%;
-text-align:center;
-color:#FFFFFF;
-font-size:1.6vh;
-text-transform:uppercase;
-font-family: 'Inconsolata', monospace;
-letter-spacing:3px;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#deets {
-position:absolute;
-opacity:0;
-padding:1%;
-overflow:auto;
-background-color:#FFFFFF;
-width:90%;
-height:25%;
-left:4%;
-top:61%;
+font-family: 'Raleway', sans-serif;
 color:#000000;
 font-size:1.5vh;
-font-family: 'KoHo', sans-serif;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
+line-height:1.7;
+letter-spacing:2px;
 }
 
-#tiny {
+#origintitle {
 position:absolute;
 background-color:#382113;
+width:4%;
+height:2.5%;
+top:25.5%;
+left:37.5%;
+text-align:center;
+font-size:2vh;
+font-family: 'Oswald', sans-serif;
+text-transform:uppercase;
+color:#60493B;
+line-height:1.25;
+}
+
+#origin {
+position:absolute;
+width:4%;
+height:2.5%;
+top:25.5%;
+left:41.5%;
+text-align:center;
+font-family: 'Raleway', sans-serif;
+color:#000000;
+font-size:1.5vh;
+line-height:1.7;
+letter-spacing:2px;
+}
+
+#merchant {
+position:absolute;
+background-color:#382113;
+padding:1%;
 width:10%;
-height:70%;
+height:12%;
+top:12%;
+left:46.5%;
+}
+
+#merchanttext {
+position:absolute;
+background-color:#422B1D;
+overflow:auto;
+padding:1%;
+width:8%;
+height:8%;
 top:14%;
-left:2%;
+left:47.5%;
+text-align:justify;
+font-size:1vh;
+color:#FFFFFF;
+font-family: 'Raleway', sans-serif;
 }
 
-#box1:hover #name {
-opacity:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box1:hover #gender {
-opacity:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box1:hover #age {
-opacity:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box1:hover #race {
-opacity:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box1:hover #height {
-opacity:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box1:hover #weight {
-opacity:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box1:hover #deetstitle {
-opacity:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box1:hover #deets {
-opacity:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box2 {
+#magic {
 position:absolute;
-background-color:rgba(96, 73, 59, 0.8);
+background-color:#382113;
+padding:1%;
+width:10%;
+height:12%;
+top:12%;
+left:59.5%;
+}
+
+#magictext {
+position:absolute;
+background-color:#422B1D;
+overflow:auto;
+padding:1%;
+width:8%;
+height:8%;
+top:14%;
+left:60.5%;
+text-align:justify;
+font-size:1vh;
+color:#FFFFFF;
+font-family: 'Raleway', sans-serif;
+}
+
+#titlebox2 {
+position:absolute;
+background-color:#382113;
+width:43%;
+height:4%;
+top:30%;
+left:28.5%;
+text-align:center;
+font-family: 'Cinzel', serif;
+font-size:2.5vh;
+color:#FFFFFF;
+line-height:1.7;
+letter-spacing:5px;
+}
+
+#frostarea {
+position:absolute;
+width:21%;
+height:10%;
+top:36%;
+left:28.5%;
+}
+
+#autumnarea {
+position:absolute;
+width:21%;
+height:10%;
+top:48%;
+left:28.5%;
+}
+
+#hopearea {
+position:absolute;
+width:21%;
+height:10%;
+top:60%;
+left:28.5%;
+}
+
+#irisarea {
+position:absolute;
+width:21%;
+height:10%;
+top:72%;
+left:28.5%;
+}
+
+#sablearea {
+position:absolute;
+width:21%;
+height:10%;
+top:84%;
+left:28.5%;
+}
+
+#dronearea {
+position:absolute;
+width:21%;
+height:10%;
+top:36%;
+left:50.5%;
+}
+
+#lunastraarea {
+position:absolute;
+width:21%;
+height:10%;
+top:48%;
+left:50.5%;
+}
+
+#faoliarea {
+position:absolute;
+width:21%;
+height:10%;
+top:60%;
+left:50.5%;
+}
+
+#lilitharea {
+position:absolute;
+width:21%;
+height:10%;
+top:72%;
+left:50.5%;
+}
+
+#tiffarea {
+position:absolute;
+width:21%;
+height:10%;
+top:84%;
+left:50.5%;
+}
+
+#pic {
+position:absolute;
+background-color:#382113;
+padding:1%;
+width:13%;
+height:58%;
+top:0%;
+left:0%;
+}
+
+#frtitle {
+position:absolute;
+background-color:#382113;
+width:80%;
+height:20%;
+top:0%;
+left:20%;
+text-align:center;
+font-size:1.4vh;
+font-family: 'Oswald', sans-serif;
+text-transform:uppercase;
+color:#60493B;
+letter-spacing:3px;
+}
+
+#frheart1 {
+position:absolute;
+width:6.5%;
+height:27%;
+top:40%;
+left:20%;
+}
+
+#frheart2 {
+position:absolute;
+width:6.5%;
+height:27%;
+top:40%;
+left:32%;
+}
+
+#frheart3 {
+position:absolute;
+width:6.5%;
+height:27%;
+top:40%;
+left:44%;
+}
+
+#frheart4 {
+position:absolute;
+width:6.5%;
+height:27%;
+top:40%;
+left:56%;
+}
+
+#frheart5 {
+position:absolute;
+width:6.5%;
+height:27%;
+top:40%;
+left:68%;
+}
+
+#frhs {
+position:absolute;
 width:20%;
-height:66%;
-top:17%;
-left:40%;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#racialstitle {
-position:absolute;
-opacity:0;
-padding:1%;
-background-color:#875321;
-width:90%;
-height:3%;
-left:4%;
-top:3%;
+height:27%;
+top:40%;
+left:80%;
 text-align:center;
-color:#FFFFFF;
-font-size:1.6vh;
-text-transform:uppercase;
-font-family: 'Inconsolata', monospace;
-letter-spacing:3px;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#racials {
-position:absolute;
-opacity:0;
-padding:1%;
-overflow:auto;
-background-color:#FFFFFF;
-width:90%;
-height:35%;
-left:4%;
-top:7%;
 color:#000000;
 font-size:1.5vh;
-font-family: 'KoHo', sans-serif;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
+font-family: 'Raleway', sans-serif;
+line-height:1.8;
 }
 
-#magicstitle {
+#frbar {
 position:absolute;
-opacity:0;
-padding:1%;
-background-color:#875321;
-width:90%;
-height:3%;
-left:4%;
-top:47%;
+border:1px solid #000000;
+width:99.4%;
+height:13%;
+left:0%;
+top:84%;
 text-align:center;
-color:#FFFFFF;
-font-size:1.6vh;
-text-transform:uppercase;
-font-family: 'Inconsolata', monospace;
-letter-spacing:3px;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#magics {
-position:absolute;
-opacity:0;
-padding:1%;
-overflow:auto;
-background-color:#FFFFFF;
-width:90%;
-height:35%;
-left:4%;
-top:51%;
 color:#000000;
-font-size:1.5vh;
-font-family: 'KoHo', sans-serif;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box2:hover #racialstitle {
-opacity:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box2:hover #racials {
-opacity:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box2:hover #magicstitle {
-opacity:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box2:hover #magics {
-opacity:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box3 {
-position:absolute;
-background-color:rgba(86, 63, 49, 0.8);
-width:19%;
-height:66%;
-top:17%;
-left:60%;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#historytitle {
-position:absolute;
-opacity:0;
-padding:1%;
-background-color:#875321;
-width:90%;
-height:3%;
-left:4%;
-top:3%;
-text-align:center;
-color:#FFFFFF;
-font-size:1.6vh;
-text-transform:uppercase;
-font-family: 'Inconsolata', monospace;
-letter-spacing:3px;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#history {
-position:absolute;
-opacity:0;
-padding:1%;
-overflow:auto;
-background-color:#FFFFFF;
-width:90%;
-height:79%;
-left:4%;
-top:7%;
-color:#000000;
-font-size:1.5vh;
-font-family: 'KoHo', sans-serif;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box3:hover #historytitle {
-opacity:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box3:hover #history {
-opacity:1;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box1:hover,#box2:hover,#box3:hover {
-background-color:rgba(76, 53, 39, 0);
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#tabbox1 {
-position:absolute;
-width:12%;
-height:7%;
-top:90%;
-left:44%;
-background-image: url('https://i.imgur.com/g9VYI3f.png') !important; 
-background-repeat:no-repeat !important; 
-background-position:center !important; 
-background-size:100% 100%;
--webkit-filter: invert(0%);
-filter: invert(0%);
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#tabbox2 {
-position:absolute;
-width:11%;
-height:7%;
-top:90%;
-left:44%;
-background-image: url('https://i.imgur.com/g9VYI3f.png') !important; 
-background-repeat:no-repeat !important; 
-background-position:center !important; 
-background-size:100% 100%;
--webkit-filter: invert(0%);
-filter: invert(0%);
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#tabbox1:hover,#tabbox2:hover {
--webkit-filter: invert(100%);
-filter: invert(100%);
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-.tabs {
-display:inline-block;
-width:100%;
-height:100%;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#tab1,#tab2,#tab3,#tab4,#tab5,#tab6 {
-display: none;
-}
-
-i {
-color:#666666;
-}
-
-a {
-color:#A18770;
-text-decoration:none;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-a:hover {
-color:#666666;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
+font-size:1vh;
+font-family: 'Raleway', sans-serif;
 }
 
 b {
-color:#382113;
-font-family: 'Major Mono Display', monospace;
-}
+font-size:1.5vh;
+color:#666666;
+font-family: 'Oswald', sans-serif;
+text-transform:uppercase;
 </style>
-
 <style type="text/css">* {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), auto !important;}</style>
-<link href="https://fonts.googleapis.com/css?family=Inconsolata|KoHo|Major+Mono+Display" rel="stylesheet">
-<script>function changeNavigation(id) {document.getElementById('box1').innerHTML=document.getElementById(id).innerHTML}</script>
-<script>function changeNavigation1(id) {document.getElementById('box2').innerHTML=document.getElementById(id).innerHTML}</script>
-<script>function changeNavigation2(id) {document.getElementById('box3').innerHTML=document.getElementById(id).innerHTML}</script>
+<link href="https://fonts.googleapis.com/css?family=Cinzel|Oswald|Raleway" rel="stylesheet">
 
-<div id="box"></div>
-<div id="pic1"></div>
-<div id="box1">
-<div id="tabbox1"><span class="tabs" onClick="changeNavigation ('tab1')"></span></div>
-<div id="name"><div id="tiny"></div>
-<u><b>Name:</b> Peppercorn</u>
+<div id="titlebox">
+The Rowan Troop Artisan
 </div>
-<div id="age"><div id="tiny"></div>
-<u><b>Age:</b> Adult, Grown</u>
+
+<div id="pepper">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/DqxiW8x.png"/>
 </div>
-<div id="gender"><div id="tiny"></div>
-<u><b>Gender:</b> Female</u>
+<div id="nametitle">
+Name:
 </div>
-<div id="race"><div id="tiny"></div>
-<u><b>Race:</b> Pixie/Faerie</u>
+<div id="name">
+Pepper
 </div>
-<div id="height"><div id="tiny"></div>
-<u><b>Height:</b> 3ft 2in .</u>
+<div id="gendertitle">
+Gender:
 </div>
-<div id="weight"><div id="tiny"></div>
-<u><b>Weight:</b> 35 lbs .</u>
+<div id="gender">
+Female
 </div>
-<div id="deetstitle">
-Detailed Information
+<div id="racetitle">
+Race:
 </div>
-<div id="deets">
-<b>Appearance</b><br>
-Peppercorn is fairly average height and build for a female Winter Pixie. Her body is proportionate to her tiny size, allowing her to continue appearing as a fully grown woman, just shrunk down. Needless to say she still possesses that defined hourglass figure femininity seems to naturally bring. Her flesh is a pale peach color for the most part, although it darkens to pitch black around her hands and feet. Her legs are covered in spiraling designs that match her feet in color, although it’s difficult to tell whether this pattern is part of her flesh or added on by her own hand. Long fluffy white hair grows from the top of the Pixie’s head, falling down her shoulders in soft waves, and taking on a caramel-y hue at its bottom tips. Pointed ears stick out from the sides of an angular heart-shaped face, complete with the cutest set of pink lips, button nose, and huge eyes that are obsidian from every angle (no separation from the whites of her eyes, or iris, or pupil, it’s all just black). Most of her more inhuman traits fall under the category of a mouth full of sharp shark-like teeth, and huge moth wings big enough to properly carry her whole form in flight, colored shades of brown, black, and white.
+<div id="race">
+Pixie
+</div>
+<div id="origintitle">
+Origin:
+</div>
+<div id="origin">
+Murias
+</div>
+<div id="merchant"></div>
+<div id="merchanttext">
+<b>Heart Points (HP)</b><br>
+This is a method of indicating the strength of relationship between a member of the Troop and the Merchant in question. Heart Points are earned at random throughout the story when appropriate, development must happen between the Merchant and the Player Character in order for these specific kinds of points to be acquired. How does this translate into their Merchant Mechanics? When purchasing pitched equipment from a Merchant their Heart Points act as a coupon, with each individual heart being a passive constant reduction to the overall price of the equipment they want to purchase. Each individual heart is worth a 10% discount, and they stack, so if Max Relationship is achieved with a Merchant NPC that means your Player Character will always have a 50% off discount from their prices! Keep in mind that Heart Points are never set in stone, if the Merchant’s opinion of the Player Character changes drastically enough Heart Points CAN BE LOST.
 <br><br>
-<b>Personality</b><br>
-Childish is ironically the best term for her. Even though according to the aging process of Pixies she is technically a fully grown adult, Pepper still behaves much like a young brat. She is passionate, selfish, quick to form opinions, and frustratingly stubborn. Should one actually tolerate her behavior and take the time to establish a bond of true friendship they’ll find her to be fiercely loyal, and mostly putty in their hands. She has a big heart and a lot of love to give, it’s just arguably difficult to get that far.
-</div>
-</div>
-<div id="pic2"></div>
-<div id="box2">
-<div id="tabbox2"><span class="tabs" onClick="changeNavigation1 ('tab2')"></span></div>
-<div id="racialstitle">
-Pixie Racials
-</div>
-<div id="racials">
-<b>Mana Sensitivity</b><br>
-The Fae-kind are very sensitive to auras and mana, allowing them to feel or see when another being is drawing from their mana pool or activating their mana, even if something is blocking their vision (assuming the blockage is Mage rank and under), a faint outline of an aura can be seen--or sensed--so long as the fellow magic user is within a twenty foot radius of the Fae (and they are actively being focused on). They cannot tell how much mana is being used or the user has left over, they are merely sensitive to when it is currently in use within the radius.
+<b>Bounty Points (BP)</b><br>
+Whenever Troopers get to set up camp (while one or both of the Merchant NPCs are also staying in the same camp) a Bounty Bulletin will be made available. Bounties are essentially tasks designated--and signed by--each individual Merchant. Completing the Bounties will reward the Player Character with Bounty Points, which can be used to purchase items, single use spells, or equipment from the Merchants who assigned the task. BP earned from one Merchant cannot be used on purchases for another. Once earned, these points cannot be lost, they exist only to be spent on their respective Merchant, and are strictly an O.O.C. concept (similar to the popular Magic School point earning systems).
 <br><br>
-<b>Enhanced Physical Speed</b><br>
-Considered to be the fastest of all their Fae-Folk peers, Pixies can push themselves to the limit! Their bodies can move up to triple the capacity of the average human at a moment's notice, making up for what they lack in size in their ability to travel larger distances in mere moments.
-<br><br>
-​<b>Camouflage</b><br>
-Even Pixies that don't have floral-like appendages, or don't dress themselves in pieces of nature, have the uncanny ability to blend in with their surroundings. It isn't that the tiny creatures can change their skin color to match the terrain, their ability is inexplicable! When they don't wish to be seen--without some kind of advanced sensory magic--they won't be, and they don't even have to alter their appearance whatsoever to "disappear."
-<br><br>
-<b>Fast Flight</b><br>
-Pixies are the only Faeries that have physical wings that grow from their backs. In most cases they are like that of an insect's, although it is possible for them to take on more of a bird-like appearance. Flight comes as easily to them as it does the insects and creatures of the sky in their native Kingdoms.
-<br><br>
-<b>Burning Calories</b><br>
-The Fae-kind eat thousands upon thousands of calories on purpose and burn them off very quickly. Physical sugary foods is said to help their mental and magic stability, often allowing them slightly faster mana regeneration than what is average if consumed when their mana-pool is either completely drained or close to it.
+<b>How To Use</b><br>
+At any point in time a member of the Rowan Troop can place a special order to any of the available Merchant NPCs. This order and/or request must be within their skillset, but can be literally anything achievable by either (or both) of the Merchant’s own Magic Trees. Equipment will be pitched to myself (Hannah/Fae/Being) via Private Messages, and will go through an approval process as I’m sure you’re all used to by now. During this process the pitch will receive a point cost, which can only be paid off with Bounty Points (BP). Discounts from Heart Points (HP) will automatically be factored into the quoted price. The Player Character will not receive the equipment they ordered until they have earned the necessary BP required to pay for the pitch.
 </div>
-<div id="magicstitle">
-High Duomancer
-</div>
-<div id="magics">
+<div id="magic"></div>
+<div id="magictext">
 <b>Enchantment</b><br>
-<i>"The art of magical augmentation. Enchanters are able to infuse objects with their magic, granting the object a either a "Permanent" effect or boon, or a temporary ability which dissipates with time. Permanent enchantments must be recharged with the Enchanter's mana to keep these effects/boons active. As an enchanter increases in power, they not only gain acess to stronger enchantments, but are able to increase their durability and longevity.  Only non-biological/sentient objects may be enchanted."</i>
+"The art of magical augmentation. Enchanters are able to infuse objects with their magic, granting the object a either a "Permanent" effect or boon, or a temporary ability which dissipates with time. Permanent enchantments must be recharged with the Enchanter's mana to keep these effects/boons active. As an enchanter increases in power, they not only gain acess to stronger enchantments, but are able to increase their durability and longevity.  Only non-biological/sentient objects may be enchanted."
 <br><br>
 <b>Ritualism</b><br>
-<i>"Magic which recreates several forms of magic by imbuing Words of Power with Mana in the form of inscribed runic symbols. A mage of this tree may harness any tree of magic, but only in its lesser forms. A jack of all trades, ace of none tree, runes may be created for singular use (such as powerful explosions or traps), or cast upon an object to provide a spell of multiple uses (although the rune must be re-carved from time to time). Although this tree may start off as inherently weak, it's sheer utility and flexible spell roster make it an excellent choice for a well rounded mage."</i>
+"Magic which recreates several forms of magic by imbuing Words of Power with Mana in the form of inscribed runic symbols. A mage of this tree may harness any tree of magic, but only in its lesser forms. A jack of all trades, ace of none tree, runes may be created for singular use (such as powerful explosions or traps), or cast upon an object to provide a spell of multiple uses (although the rune must be re-carved from time to time). Although this tree may start off as inherently weak, it's sheer utility and flexible spell roster make it an excellent choice for a well rounded mage."
+</div>
+
+<div id="titlebox2">
+Associates & Colleagues
+</div>
+
+<div id="frostarea">
+<a target="_blank" href="http://cryomancer.chatango.com"><div id="pic">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/qWenQ9E.png"/>
+</div></a>
+<div id="frtitle">
+Commander: Frost
+</div>
+<div id="frheart1">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/BEEKM61.png"/>
+</div>
+<div id="frheart2">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart3">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart4">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart5">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frhs">
+1 HP (10%)
+</div>
+<div id="frbar">
+0% (0 BP)
 </div>
 </div>
-<div id="pic3"></div>
-<div id="box3">
-<div id="tabbox1"><span class="tabs" onClick="changeNavigation2 ('tab3')"></span></div>
-<div id="historytitle">
-Pepper's Story Thus Far
+<div id="autumnarea">
+<a target="_blank" href="http://autumn.chatango.com"><div id="pic">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/9yDdQYo.jpg"/>
+</div></a>
+<div id="frtitle">
+Huntress: Autumn
 </div>
-<div id="history">
-Pepper’s story is fairly plain. Her parents were average Pixies for the most part, one being a Firstborn, member of the original Royal Court under Queen Mab before the massive invasion ripped everything apart. The other was a commoner, child of two Firstborns as opposed to being one themselves. Both were beyond exceptional at their craft, and she inherited her own form of magic from them. 
-<br><br>
-She was born just after the Kingdoms had been re-established, stolen back out from under the noses of cruel Xink overlords, and spent the majority of her life under prestigious tutelage. Fine arts were first, training her hands to produce steady brush strokes and beautiful paintings. She also was forced to learn carving, and other similar hands-on skills that would be important traits for her arcane crafts. When her work was deemed successful enough to be worthy of monetization she got to move on to magic study.
-<br><br>
-Despite her childish demeanor Peppercorn responded extremely well to the studious life she’d been placed in. She was passionate about the arts already, finding plenty of reason to enjoy all the hard strenuous work. As a result she continued to produce excellent crafts, and by the time her magic was powerful enough to get her noticed Queen Mab had already taken a strong liking to her specific style. The tiny Moth Pixie was offered her own proper place in the Royal Court, as one of the crown’s own official artisan’s. Now, many successful crafts later proving her worth tenfold, she has been enlisted to share her talents with the Rowan Troop.
+<div id="frheart1">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart2">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart3">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart4">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart5">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frhs">
+0 HP (0%)
+</div>
+<div id="frbar">
+0% (0 BP)
+</div>
+</div>
+<div id="hopearea">
+<a target="_blank" href="http://commiserate.chatango.com"><div id="pic">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/ehq3nyc.png"/>
+</div></a>
+<div id="frtitle">
+Scout: Hope
+</div>
+<div id="frheart1">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart2">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart3">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart4">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart5">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frhs">
+0 HP (0%)
+</div>
+<div id="frbar">
+0% (0 BP)
+</div>
+</div>
+<div id="irisarea">
+<a target="_blank" href="http://foreteller.chatango.com"><div id="pic">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/XAmQmt7.png"/>
+</div></a>
+<div id="frtitle">
+Investigator: Iris
+</div>
+<div id="frheart1">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart2">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart3">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart4">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart5">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frhs">
+0 HP (0%)
+</div>
+<div id="frbar">
+0% (0 BP)
+</div>
+</div>
+<div id="sablearea">
+<a target="_blank" href="http://kruisen.chatango.com"><div id="pic">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/kZHMslw.png"/>
+</div></a>
+<div id="frtitle">
+Escort: Sable
+</div>
+<div id="frheart1">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart2">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart3">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart4">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart5">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frhs">
+0 HP (0%)
+</div>
+<div id="frbar">
+0% (0 BP)
 </div>
 </div>
 
-<div id="tab1">
-<img style="width:100%;height:100%;" src="https://i.imgur.com/sre0AHZ.png"/>
-<div id="tabbox1"><span class="tabs" onClick="changeNavigation ('tab4')"></span></div>
+<div id="dronearea">
+<a target="_blank" href="http://fervor.chatango.com"><div id="pic">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/8BpYsim.jpg"/>
+</div></a>
+<div id="frtitle">
+Muscle: Drone
 </div>
-
-<div id="tab2">
-<img style="width:100%;height:100%;" src="https://i.imgur.com/2t8yGJE.jpg"/>
-<div id="tabbox2"><span class="tabs" onClick="changeNavigation1 ('tab5')"></span></div>
+<div id="frheart1">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
 </div>
-
-<div id="tab3">
-<img style="width:100%;height:100%;" src="https://i.imgur.com/pBCmzLb.png"/>
-<div id="tabbox1"><span class="tabs" onClick="changeNavigation2 ('tab6')"></span></div>
+<div id="frheart2">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
 </div>
-
-<div id="tab4">
-<div id="tabbox1"><span class="tabs" onClick="changeNavigation ('tab1')"></span></div>
-<div id="name"><div id="tiny"></div>
-<u><b>Name:</b> Peppercorn</u>
+<div id="frheart3">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
 </div>
-<div id="age"><div id="tiny"></div>
-<u><b>Age:</b> Adult, Grown</u>
+<div id="frheart4">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
 </div>
-<div id="gender"><div id="tiny"></div>
-<u><b>Gender:</b> Female</u>
+<div id="frheart5">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
 </div>
-<div id="race"><div id="tiny"></div>
-<u><b>Race:</b> Pixie/Faerie</u>
+<div id="frhs">
+0 HP (0%)
 </div>
-<div id="height"><div id="tiny"></div>
-<u><b>Height:</b> 3ft 2in .</u>
-</div>
-<div id="weight"><div id="tiny"></div>
-<u><b>Weight:</b> 35 lbs .</u>
-</div>
-<div id="deetstitle">
-Detailed Information
-</div>
-<div id="deets">
-<b>Appearance</b><br>
-Peppercorn is fairly average height and build for a female Winter Pixie. Her body is proportionate to her tiny size, allowing her to continue appearing as a fully grown woman, just shrunk down. Needless to say she still possesses that defined hourglass figure femininity seems to naturally bring. Her flesh is a pale peach color for the most part, although it darkens to pitch black around her hands and feet. Her legs are covered in spiraling designs that match her feet in color, although it’s difficult to tell whether this pattern is part of her flesh or added on by her own hand. Long fluffy white hair grows from the top of the Pixie’s head, falling down her shoulders in soft waves, and taking on a caramel-y hue at its bottom tips. Pointed ears stick out from the sides of an angular heart-shaped face, complete with the cutest set of pink lips, button nose, and huge eyes that are obsidian from every angle (no separation from the whites of her eyes, or iris, or pupil, it’s all just black). Most of her more inhuman traits fall under the category of a mouth full of sharp shark-like teeth, and huge moth wings big enough to properly carry her whole form in flight, colored shades of brown, black, and white.
-<br><br>
-<b>Personality</b><br>
-Childish is ironically the best term for her. Even though according to the aging process of Pixies she is technically a fully grown adult, Pepper still behaves much like a young brat. She is passionate, selfish, quick to form opinions, and frustratingly stubborn. Should one actually tolerate her behavior and take the time to establish a bond of true friendship they’ll find her to be fiercely loyal, and mostly putty in their hands. She has a big heart and a lot of love to give, it’s just arguably difficult to get that far.
+<div id="frbar">
+0% (0 BP)
 </div>
 </div>
-
-<div id="tab5">
-<div id="tabbox2"><span class="tabs" onClick="changeNavigation1 ('tab2')"></span></div>
-<div id="racialstitle">
-Pixie Racials
+<div id="lunastraarea">
+<a target="_blank" href="http://plainswalker.chatango.com"><div id="pic">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/RCWdzh6.png"/>
+</div></a>
+<div id="frtitle">
+Healer: Lunastra
 </div>
-<div id="racials">
-<b>Mana Sensitivity</b><br>
-The Fae-kind are very sensitive to auras and mana, allowing them to feel or see when another being is drawing from their mana pool or activating their mana, even if something is blocking their vision (assuming the blockage is Mage rank and under), a faint outline of an aura can be seen--or sensed--so long as the fellow magic user is within a twenty foot radius of the Fae (and they are actively being focused on). They cannot tell how much mana is being used or the user has left over, they are merely sensitive to when it is currently in use within the radius.
-<br><br>
-<b>Enhanced Physical Speed</b><br>
-Considered to be the fastest of all their Fae-Folk peers, Pixies can push themselves to the limit! Their bodies can move up to triple the capacity of the average human at a moment's notice, making up for what they lack in size in their ability to travel larger distances in mere moments.
-<br><br>
-​<b>Camouflage</b><br>
-Even Pixies that don't have floral-like appendages, or don't dress themselves in pieces of nature, have the uncanny ability to blend in with their surroundings. It isn't that the tiny creatures can change their skin color to match the terrain, their ability is inexplicable! When they don't wish to be seen--without some kind of advanced sensory magic--they won't be, and they don't even have to alter their appearance whatsoever to "disappear."
-<br><br>
-<b>Fast Flight</b><br>
-Pixies are the only Faeries that have physical wings that grow from their backs. In most cases they are like that of an insect's, although it is possible for them to take on more of a bird-like appearance. Flight comes as easily to them as it does the insects and creatures of the sky in their native Kingdoms.
-<br><br>
-<b>Burning Calories</b><br>
-The Fae-kind eat thousands upon thousands of calories on purpose and burn them off very quickly. Physical sugary foods is said to help their mental and magic stability, often allowing them slightly faster mana regeneration than what is average if consumed when their mana-pool is either completely drained or close to it.
+<div id="frheart1">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
 </div>
-<div id="magicstitle">
-High Duomancer
+<div id="frheart2">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
 </div>
-<div id="magics">
-<b>Enchantment</b><br>
-<i>"The art of magical augmentation. Enchanters are able to infuse objects with their magic, granting the object a either a "Permanent" effect or boon, or a temporary ability which dissipates with time. Permanent enchantments must be recharged with the Enchanter's mana to keep these effects/boons active. As an enchanter increases in power, they not only gain acess to stronger enchantments, but are able to increase their durability and longevity.  Only non-biological/sentient objects may be enchanted."</i>
-<br><br>
-<b>Ritualism</b><br>
-<i>"Magic which recreates several forms of magic by imbuing Words of Power with Mana in the form of inscribed runic symbols. A mage of this tree may harness any tree of magic, but only in its lesser forms. A jack of all trades, ace of none tree, runes may be created for singular use (such as powerful explosions or traps), or cast upon an object to provide a spell of multiple uses (although the rune must be re-carved from time to time). Although this tree may start off as inherently weak, it's sheer utility and flexible spell roster make it an excellent choice for a well rounded mage."</i>
+<div id="frheart3">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart4">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart5">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frhs">
+0 HP (0%)
+</div>
+<div id="frbar">
+0% (0 BP)
 </div>
 </div>
-
-<div id="tab6">
-<div id="tabbox1"><span class="tabs" onClick="changeNavigation2 ('tab3')"></span></div>
-<div id="historytitle">
-Pepper's Story Thus Far
+<div id="faoliarea">
+<a target="_blank" href="http://tulpa.chatango.com"><div id="pic">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/oXZ49n5.png"/>
+</div></a>
+<div id="frtitle">
+Defender: Faoli
 </div>
-<div id="history">
-Pepper’s story is fairly plain. Her parents were average Pixies for the most part, one being a Firstborn, member of the original Royal Court under Queen Mab before the massive invasion ripped everything apart. The other was a commoner, child of two Firstborns as opposed to being one themselves. Both were beyond exceptional at their craft, and she inherited her own form of magic from them. 
-<br><br>
-She was born just after the Kingdoms had been re-established, stolen back out from under the noses of cruel Xink overlords, and spent the majority of her life under prestigious tutelage. Fine arts were first, training her hands to produce steady brush strokes and beautiful paintings. She also was forced to learn carving, and other similar hands-on skills that would be important traits for her arcane crafts. When her work was deemed successful enough to be worthy of monetization she got to move on to magic study.
-<br><br>
-Despite her childish demeanor Peppercorn responded extremely well to the studious life she’d been placed in. She was passionate about the arts already, finding plenty of reason to enjoy all the hard strenuous work. As a result she continued to produce excellent crafts, and by the time her magic was powerful enough to get her noticed Queen Mab had already taken a strong liking to her specific style. The tiny Moth Pixie was offered her own proper place in the Royal Court, as one of the crown’s own official artisan’s. Now, many successful crafts later proving her worth tenfold, she has been enlisted to share her talents with the Rowan Troop.
+<div id="frheart1">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart2">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart3">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart4">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart5">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frhs">
+0 HP (0%)
+</div>
+<div id="frbar">
+0% (0 BP)
+</div>
+</div>
+<div id="lilitharea">
+<a target="_blank" href="http://lilith.chatango.com"><div id="pic">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/NN3Kyzk.png"/>
+</div></a>
+<div id="frtitle">
+Assassin: Lilith
+</div>
+<div id="frheart1">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart2">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart3">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart4">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart5">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frhs">
+0 HP (0%)
+</div>
+<div id="frbar">
+0% (0 BP)
+</div>
+</div>
+<div id="tiffarea">
+<a target="_blank" href="http://clairvoyant.chatango.com"><div id="pic">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/JLeESmn.png"/>
+</div></a>
+<div id="frtitle">
+Apothecary: Tiff
+</div>
+<div id="frheart1">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart2">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart3">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart4">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frheart5">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Bg9X2xV.png"/>
+</div>
+<div id="frhs">
+0 HP (0%)
+</div>
+<div id="frbar">
+0% (0 BP)
 </div>
 </div>
 
